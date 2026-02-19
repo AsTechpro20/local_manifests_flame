@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Remotes -->
+  <remote name="astechpro20" fetch="https://github.com/AsTechpro20" revision="lineage-23.2"/>
+  
+  <!-- Device Trees -->
+  <project path="device/xiaomi/flame" name="device_xiaomi_flame" remote="astechpro20" />
+  
+  <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/flame" name="vendor_xiaomi_flame" remote="astechpro20"/>
+  
+  <!-- Kernel -->
+  <project path="device/xiaomi/flame-kernel" name="device_xiaomi_flame-kernel" remote="astechpro20" revision="lineage-23.1"/>
+
+  <!-- Firmware -->
+  <!-- <project path="vendor/xiaomi/device-firmware" name="vendor_xiaomi_flame-firmware" remote="astechpro20" revision="main"/> -->
+  
+</manifest>
