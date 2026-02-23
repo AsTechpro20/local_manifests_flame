@@ -3,6 +3,7 @@
   
   <!-- Remotes -->
   <remote name="astechpro20" fetch="https://github.com/AsTechpro20" revision="lineage-23.2"/>
+  <remote name="LOS" fetch="https://github.com/lineageos" revision="lineage-23.2"/>
   
   <!-- Device Trees -->
   <project path="device/xiaomi/flame" name="device_xiaomi_flame" remote="astechpro20" />
@@ -12,6 +13,9 @@
   
   <!-- Kernel -->
   <project path="device/xiaomi/flame-kernel" name="device_xiaomi_flame-kernel" remote="astechpro20" revision="lineage-23.1"/>
+
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS"/>
 
   <!-- Firmware -->
   <!-- <project path="vendor/xiaomi/device-firmware" name="vendor_xiaomi_flame-firmware" remote="astechpro20" revision="main"/> -->
