@@ -4,18 +4,23 @@
   <!-- Remotes -->
   <remote name="astechpro20" fetch="https://github.com/AsTechpro20" revision="lineage-23.2"/>
   <remote name="LOS" fetch="https://github.com/lineageos" revision="lineage-23.2"/>
-  
+  <remote name="dolby" fetch="https://github.com/adi8900" revision="lunaris"/>
+  <remote name="bitstash" fetch="https://github.com/bitstash-io" revision="lineage-23.2"/>
+
   <!-- Device Trees -->
-  <project path="device/xiaomi/flame" name="device_xiaomi_flame" remote="astechpro20" />
+  <project path="device/xiaomi/flame" name="device_xiaomi_flame" remote="astechpro20"/>
   
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/flame" name="vendor_xiaomi_flame" remote="astechpro20"/>
+  <project path="vendor/xiaomi/flame" name="vendor_xiaomi_flame" remote="bitstash"/>
   
   <!-- Kernel -->
-  <project path="device/xiaomi/flame-kernel" name="device_xiaomi_flame-kernel" remote="astechpro20" revision="lineage-23.1"/>
+  <project path="device/xiaomi/flame-kernel" name="device_xiaomi_flame-kernel" remote="bitstash"/>
 
   <!-- Hardware -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS"/>
+
+  <!-- Dolby -->
+  <project path="hardware/dolby" name="hardware_dolby" remote="dolby"/>
 
   <!-- Firmware -->
   <!-- <project path="vendor/xiaomi/device-firmware" name="vendor_xiaomi_flame-firmware" remote="astechpro20" revision="main"/> -->
