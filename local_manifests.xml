@@ -4,7 +4,7 @@
   <!-- Remotes -->
   <remote name="astechpro20" fetch="https://github.com/AsTechpro20" revision="lineage-24.0"/>
   <remote name="LOS" fetch="https://github.com/lineageos" revision="lineage-24.0"/>
-  <remote name="dolby" fetch="https://github.com/adi8900" revision="lunaris"/>
+  <remote name="dolby" fetch="https://github.com/syntaxscuxz" revision="lineage-23.2"/>
   <remote name="flame4blame" fetch="https://github.com/flame4blame" revision="lineage-24.0"/>
 
   <!-- Device Trees -->
